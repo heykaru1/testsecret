@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'crudlesson_db',
+        'NAME': 'crudlesson_db', #name of the database 
         'USER': 'root',
         'PASSWORD': '',  # make it blank for now
         'PORT': '3306',  # you can find the port in xampp control panel
